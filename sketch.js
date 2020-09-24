@@ -17,7 +17,7 @@ let  a6value;
 let  a7value;
 
 function setup() {
-  createCanvas(1300, 600);
+  createCanvas(1310, 600);
   frameRate(40);
      
   a0 = new Clickable(width/2+250,height*0.1,40,40);
