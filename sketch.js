@@ -135,10 +135,10 @@ function plotter(){
     
     for (let j=0; j<=28; j=j+4)
         {       
-     vertex(width/2+25*j,height/2-line_code[j]);
-     vertex(width/2+25*(j+2),height/2-line_code[j+1]);
-     vertex(width/2+25*(j+2),height/2-line_code[j+2]); 
-     vertex(width/2+25*(j+4),height/2-line_code[j+3]); 
+     vertex(width/2+25*j,height/2+line_code[j]);
+     vertex(width/2+25*(j+2),height/2+line_code[j+1]);
+     vertex(width/2+25*(j+2),height/2+line_code[j+2]); 
+     vertex(width/2+25*(j+4),height/2+line_code[j+3]); 
      push(); drawingContext.setLineDash([5,6,5,6,5,6,5,6]);
         stroke(255);
      line(width/2+25*(j+4),0.1*height,width/2+25*(j+4),0.9*height);
