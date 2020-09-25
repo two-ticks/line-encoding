@@ -29,6 +29,8 @@ the digital data are recreated by decoding the digital signal.
 * Transparency: all possible binary sequences can be transmitted
 
 # Alternate Mark Inversion (Bipolar) Signaling
+<img src="gifs/bipolar-ami.gif" width="150" />
+
 AMI encodes 0 as 0 V and 1 as +V or −V, with alternating signs.
 AMI was used in early PCM systems.
 * Eliminates DC build up on cable.
@@ -36,6 +38,8 @@ AMI was used in early PCM systems.
 * Provides error detecting; every bit error results in bipolar violation.
 * Guarantees transitions for timing recovery with long runs of ones.
 # Differential Manchester Encoding
+<img src="gifs/diffrential-manchester.gif" width="150" />
+
 Differential Manchester Encoding, also called biphase mark code (BMC) or FM1, is a line code in which data and clock signals are combined to form a single 2-level self-synchronizing data stream. It is a differential encoding, using the presence or absence of transitions to indicate logical value. It has the following advantages over some other line codes:
 
 * A transition is guaranteed at least once every bit, allowing the receiving device to perform clock recovery.
@@ -44,6 +48,8 @@ Differential Manchester Encoding, also called biphase mark code (BMC) or FM1, is
 * If the high and low signal levels have the same voltage with opposite polarity, coded signals have zero average DC voltage, thus reducing the necessary transmitting power and minimizing the amount of electromagnetic noise produced by the transmission line.
 
 # Manchester Encoding
+<img src="gifs/manchester.gif" width="150" />
+
 Manchester encoding is a synchronous clock encoding technique used by the physical layer of the Open System Interconnection [OSI] to encode the clock and data of a synchronous bit stream.
 * A logic 0 is indicated by a 0 to 1 transition at the centre of the bit and logic 1 by 1 to 0 transition.
 * The signal transitions do not always occur at the ‘bit boundary’ but there is always a transition at the centre of each bit.
@@ -52,17 +58,23 @@ Manchester encoding is a synchronous clock encoding technique used by the physic
 * The advantages of Manchester code is that the DC component of the signal carries no information. This makes it possible that standards that usually do not carry power can transmit this information.
 
 # MLT-3 Encoding 
+<img src="gifs/mlt-3.gif" width="150" />
 
 MLT-3 encoding is a line coding scheme used in a telecommunication system for transmission purposes that uses three voltage levels. MLT-3 cycles sequentially through the voltage levels −1, 0, +1, 0. It moves to the next state to transmit a 1 bit, and stays in the same state to transmit a 0 bit. Similar to simple NRZ encoding, MLT-3 has a coding efficiency of 1 bit/baud, however it requires four transitions (baud) to complete a full cycle (from low-to-middle, middle-to-high, high-to-middle, middle-to-low). Thus, the maximum fundamental frequency is reduced to one fourth of the baud rate. This makes signal transmission more amenable to copper wires
 
 # NRZ–INVERTED
+<img src="gifs/nrz-i.gif" width="150" />
 
 If a 1 occurs at the incoming signal, then there occurs a transition at the beginning of the bit interval. For a 0 at the incoming signal, there is no transition at the beginning of the bit interval.
 
 NRZ codes has a disadvantage that the synchronization of the transmitter clock with the receiver clock gets completely disturbed, when there is a string of 1s and 0s. Hence, a separate clock line needs to be provided.
 
 # NRZ–LEVEL
+<img src="gifs/nrz-l.gif" width="150" />
+
 There is a change in the polarity of the signal, only when the incoming signal changes from 1 to 0 or from 0 to 1. It is the same as NRZ, however, the first bit of the input signal should have a change of polarity.
 
 # Unipolar NRZ
+<img src="gifs/unipolar-nrz.gif" width="150" />
+
 It is unipolar line coding scheme in which positive voltage defines bit 1 and the zero voltage defines bit 0. Signal does not return to zero at the middle of the bit thus it is called NRZ.
