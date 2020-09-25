@@ -21,5 +21,12 @@ encoded into a digital signal; at the receiver, the
 digital data are recreated by decoding the digital
 signal.
 ```
+# Line Coding Requirements
 
-
+* Small transmission bandwidth
+* Power efficiency: as small as possible for required data rate and error
+  probability
+* Error detection/correction
+* Suitable power spectral density, e.g., little low frequency content
+* Timing information: clock must be extracted from data
+* Transparency: all possible binary sequences can be transmitted
