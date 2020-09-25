@@ -8,7 +8,7 @@ the digital data are recreated by decoding the digital signal.
 ```
 
 # Interactive Line Encoding Simulations 
-![change-bits](gifs/change-bits.gif)
+<img src="gifs/change-bits.gif" width="450" />
 * [Bi-polar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
 * [Diffrential Manchester line-coding](https://two-ticks.github.io/line-encoding/diffrential-manchester-line-coding.html)
 * [Manchester line-coding](https://two-ticks.github.io/line-encoding/manchester-line-coding.html)
