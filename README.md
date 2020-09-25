@@ -8,7 +8,7 @@ the digital data are recreated by decoding the digital signal.
 ```
 
 # Interactive Line Encoding Simulations 
-<img src="gifs/chnge-bits.gif" width="130" /> `Click to toggle the bit'
+<img src="gifs/chnge-bits.gif" width="130" /> `Click to toggle the bit`
 
 * [Bi-polar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
 * [Diffrential Manchester line-coding](https://two-ticks.github.io/line-encoding/diffrential-manchester-line-coding.html)
@@ -36,8 +36,8 @@ AMI was used in early PCM systems.
 * Reduces bandwidth compared to polar.
 * Provides error detecting; every bit error results in bipolar violation.
 * Guarantees transitions for timing recovery with long runs of ones.
->
-<img src="gifs/bipolar-ami.gif" width="500" />
+
+> <img src="gifs/bipolar-ami.gif" width="500" />
 
 # Differential Manchester Encoding
 
