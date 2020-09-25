@@ -3,7 +3,7 @@
 [link to webpage!](https://two-ticks.github.io/line-encoding/)
 
 # Index 
-* [Bi-polar AMI line-coding](bipolar-ami-line-coding.html)
+* [Bi-polar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
 * [Diffrential Manchester line-coding](diffrential-manchester-line-coding.html)
 * [Manchester line-coding](manchester-line-coding.html)
 * [MLT-3 line-coding](mlt-3-line-coding.html)
