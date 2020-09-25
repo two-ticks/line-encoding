@@ -1,8 +1,6 @@
 # line-encoding-schemes
 
-[link to webpage!](https://two-ticks.github.io/line-encoding/)
-
-# Index 
+# Interactive Line Encoding Simulations 
 * [Bi-polar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
 * [Diffrential Manchester line-coding](https://two-ticks.github.io/line-encoding/diffrential-manchester-line-coding.html)
 * [Manchester line-coding](https://two-ticks.github.io/line-encoding/manchester-line-coding.html)
