@@ -46,12 +46,9 @@ Differential Manchester Encoding, also called biphase mark code (BMC) or FM1, is
 
 # Manchester Encoding
 Manchester encoding is a synchronous clock encoding technique used by the physical layer of the Open System Interconnection [OSI] to encode the clock and data of a synchronous bit stream.
-The binary data to be transmitted over the cable are not sent as NRZ [Non-return-to-zero].
 * A logic 0 is indicated by a 0 to 1 transition at the centre of the bit and logic 1 by 1 to 0 transition.
 * The signal transitions do not always occur at the ‘bit boundary’ but there is always a transition at the centre of each bit.
-* The Differential Physical Layer Transmission do not employ an inverting line driver to convert the binary digits into an electrical signal. And therefore the signal on the wire is not opposite the output by encoder.
 * The Manchester Encoding is also called Biphase code as each bit is encoded by a positive 90 degrees phase transition or by negative 90 degress phase transiton..
-* The Digital Phase Locked Loop (DPLL) extracts the clock signal and deallocates the value and timming of each bit. The transmitted bit stream must contain a high density of bit transitions.
 * The Manchester Encoding consumes twice the bandwidth of the original signal.
 * The advantages of Manchester code is that the DC component of the signal carries no information. This makes it possible that standards that usually do not carry power can transmit this information.
 
