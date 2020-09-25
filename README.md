@@ -67,7 +67,7 @@ MLT-3 encoding is a line coding scheme used in a telecommunication system for tr
 
 ><img src="gifs/mlt-3.gif" width="500" />
 
-# NRZ–INVERTED
+# NRZ–Inverted Encoding
 
 If a 1 occurs at the incoming signal, then there occurs a transition at the beginning of the bit interval. For a 0 at the incoming signal, there is no transition at the beginning of the bit interval.
 
@@ -75,14 +75,13 @@ NRZ codes has a disadvantage that the synchronization of the transmitter clock w
 
 ><img src="gifs/nrz-i.gif" width="500" />
 
-# NRZ–LEVEL
+# NRZ–Level Encoding
 
 There is a change in the polarity of the signal, only when the incoming signal changes from 1 to 0 or from 0 to 1. It is the same as NRZ, however, the first bit of the input signal should have a change of polarity.
 
 ><img src="gifs/nrz-l.gif" width="500" />
 
-# Unipolar NRZ
-
+# Unipolar NRZ Encoding
 
 It is unipolar line coding scheme in which positive voltage defines bit 1 and the zero voltage defines bit 0. Signal does not return to zero at the middle of the bit thus it is called NRZ.
 
