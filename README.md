@@ -54,3 +54,7 @@ The binary data to be transmitted over the cable are not sent as NRZ [Non-return
 * The Digital Phase Locked Loop (DPLL) extracts the clock signal and deallocates the value and timming of each bit. The transmitted bit stream must contain a high density of bit transitions.
 * The Manchester Encoding consumes twice the bandwidth of the original signal.
 * The advantages of Manchester code is that the DC component of the signal carries no information. This makes it possible that standards that usually do not carry power can transmit this information.
+
+# MLT-3 Encoding 
+
+MLT-3 encoding is a line coding scheme used in a telecommunication system for transmission purposes that uses three voltage levels. MLT-3 cycles sequentially through the voltage levels −1, 0, +1, 0. It moves to the next state to transmit a 1 bit, and stays in the same state to transmit a 0 bit. Similar to simple NRZ encoding, MLT-3 has a coding efficiency of 1 bit/baud, however it requires four transitions (baud) to complete a full cycle (from low-to-middle, middle-to-high, high-to-middle, middle-to-low). Thus, the maximum fundamental frequency is reduced to one fourth of the baud rate. This makes signal transmission more amenable to copper wires
