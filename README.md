@@ -12,7 +12,7 @@ the digital data are recreated by decoding the digital signal.
 
 # Interactive Line Encoding Simulations 
 
-* [Bi-polar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
+* [Bipolar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
 * [Diffrential Manchester line-coding](https://two-ticks.github.io/line-encoding/diffrential-manchester-line-coding.html)
 * [Manchester line-coding](https://two-ticks.github.io/line-encoding/manchester-line-coding.html)
 * [MLT-3 line-coding](https://two-ticks.github.io/line-encoding/mlt-3-line-coding.html)
