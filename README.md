@@ -28,3 +28,11 @@ signal.
 * Suitable power spectral density, e.g., little low frequency content
 * Timing information: clock must be extracted from data
 * Transparency: all possible binary sequences can be transmitted
+
+# Alternate Mark Inversion (Bipolar) Signaling
+AMI encodes 0 as 0 V and 1 as +V or −V, with alternating signs.
+AMI was used in early PCM systems.
+* Eliminates DC build up on cable.
+* Reduces bandwidth compared to polar.
+* Provides error detecting; every bit error results in bipolar violation.
+* Guarantees transitions for timing recovery with long runs of ones.
