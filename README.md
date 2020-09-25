@@ -1,4 +1,14 @@
-# line-encoding-schemes
+
+# Line Encoding 
+
+```
+Line coding is the process of converting digital data
+to digital signals. Line coding converts a sequence of
+bits to a digital signal. At the sender, digital data are
+encoded into a digital signal; at the receiver, the
+digital data are recreated by decoding the digital
+signal.
+```
 
 # Interactive Line Encoding Simulations 
 * [Bi-polar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
