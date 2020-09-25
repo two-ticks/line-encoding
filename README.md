@@ -1,4 +1,4 @@
-# line-encoding
+# line-encoding-schemes
 
 [link to webpage!](https://two-ticks.github.io/line-encoding/)
 
