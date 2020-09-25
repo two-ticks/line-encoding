@@ -1,6 +1,6 @@
 # line-encoding
 
-[link to Webpage!](https://two-ticks.github.io/line-encoding/)
+[link to webpage!](https://two-ticks.github.io/line-encoding/)
 
 # Index 
 * [bipolar-ami-line-coding](bipolar-ami-line-coding.html)
