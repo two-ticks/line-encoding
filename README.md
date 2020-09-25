@@ -6,10 +6,11 @@ Line coding is the process of converting digital data to digital signals. Line c
 of bits to a digital signal. At the sender, digital data are encoded into a digital signal; at the receiver, 
 the digital data are recreated by decoding the digital signal.
 ```
+<img src="gifs/chnge-bits.gif" width="130" /> 
+
+`Click to toggle the bit`
 
 # Interactive Line Encoding Simulations 
-<img src="gifs/chnge-bits.gif" width="130" /> 
-`Click to toggle the bit`
 
 * [Bi-polar AMI line-coding](https://two-ticks.github.io/line-encoding/bipolar-ami-line-coding.html)
 * [Diffrential Manchester line-coding](https://two-ticks.github.io/line-encoding/diffrential-manchester-line-coding.html)
