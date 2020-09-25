@@ -36,7 +36,7 @@ AMI was used in early PCM systems.
 * Reduces bandwidth compared to polar.
 * Provides error detecting; every bit error results in bipolar violation.
 * Guarantees transitions for timing recovery with long runs of ones.
-
+>
 <img src="gifs/bipolar-ami.gif" width="500" />
 
 # Differential Manchester Encoding
@@ -63,7 +63,7 @@ Manchester encoding is a synchronous clock encoding technique used by the physic
 
 MLT-3 encoding is a line coding scheme used in a telecommunication system for transmission purposes that uses three voltage levels. MLT-3 cycles sequentially through the voltage levels −1, 0, +1, 0. It moves to the next state to transmit a 1 bit, and stays in the same state to transmit a 0 bit. Similar to simple NRZ encoding, MLT-3 has a coding efficiency of 1 bit/baud, however it requires four transitions (baud) to complete a full cycle (from low-to-middle, middle-to-high, high-to-middle, middle-to-low). Thus, the maximum fundamental frequency is reduced to one fourth of the baud rate. This makes signal transmission more amenable to copper wires.
 
-<img src="gifs/mlt-3.gif" width="300" />
+<img src="gifs/mlt-3.gif" width="500" />
 
 # NRZ–INVERTED
 
